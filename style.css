@@ -107,11 +107,13 @@ a {
 
 .content {
   display: flex;
+  flex: 1;
   flex-direction: column;
 }
 
 .cards {
   display: flex;
+  padding: 20px 40px;
   gap: 20px;
 }
 
@@ -121,7 +123,7 @@ a {
   border-radius: 16px;
 }
 
-h2 {
+.content-text {
   margin-bottom: 40px;
   text-align: center;
   color: #1f2937;
@@ -142,8 +144,12 @@ h2 {
 }
 
 .quote-section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
   background-color: #e5e7eb;
-  text-align: start;
+  padding: 40px;
 }
 
 .quote-text {
@@ -159,4 +165,5 @@ h2 {
   color: #1f2937;
   font-weight: 200;
   justify-content: flex-end;
+  align-items: center;
 }
