@@ -178,10 +178,20 @@ a {
   border-radius: 16px;
 }
 
+.action-section {
+  flex: 1;
+}
+
 .sign-up-button-inverted {
   border: 2px solid white;
   color: white;
   background-color: #3882f6;
   padding: 5px 15px;
   border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
